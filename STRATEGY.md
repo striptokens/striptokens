@@ -20,7 +20,7 @@ The wording and supplied seed patterns indicate commercial investigation intent,
 - Recommendation: create one page at the suggested slug, `stripchat-token-promotion`, because this checkout has no existing money page and Search Console status is `[[unknown]]`.
 - Before publishing: inspect GSC and the live site for an existing URL with impressions or clicks. If one exists, optimise that URL instead and do not create a competing page.
 - Do not create multiple pages for the same promotion intent.
-- Publication warning: the canonical, brand, organiser, destination status and all `[[TODO]]` values must be replaced or consciously retained as a clearly unpublished template.
+- Publication warning: the organiser, destination status and all material `[[TODO]]` values must be replaced or consciously retained as a clearly unpublished template. The canonical URL, site label and social image are configured for GitHub Pages.
 
 ### Entity map
 
@@ -70,9 +70,7 @@ The page uses `[[TODO]]` rather than inventing any of the following:
 - terms, eligibility and privacy URLs;
 - commercial or affiliate disclosure;
 - verification date and page update date;
-- final YouTube title, transcript summary and speaker identity;
-- brand and canonical URL;
-- social / Open Graph image URL.
+- final YouTube title, transcript summary and speaker identity.
 
 ### Snippet and AI Overview plan
 
@@ -89,7 +87,7 @@ The page uses `[[TODO]]` rather than inventing any of the following:
 - A neutral link can still be misread as endorsement; the visible unverified warning and `nofollow sponsored noopener` attributes are required.
 - Leaving placeholders in production would make the page incomplete; publishing is blocked until a human completes the verification record.
 - The keyword family includes unsafe hack, generator and modified-APK searches. Those terms appear only as safety warnings, never as commercial targets or CTAs.
-- The verification meta tag, canonical and social image are technical placeholders that must be checked on the real host.
+- The verification meta tag, canonical and social image are configured for the supplied GitHub Pages URL and must be checked after deployment.
 
 ### Verification requirements
 
@@ -101,11 +99,11 @@ Before marking any destination or offer verified, confirm domain ownership, HTTP
 - **Meta description:** `Learn how the StripChat token promotion works, who may qualify, what conditions apply and how to review the terms before participating.`
 - **Slug:** `stripchat-token-promotion`
 - **H1:** `StripChat Token Promotion: How Eligibility Works`
-- **Canonical:** `[[CANONICAL_URL]]`
+- **Canonical:** `https://striptokens.github.io/striptokens/`
 - **Robots:** `index,follow`
 - **Open Graph title:** `StripChat Token Promotion: Eligibility and Terms`
 - **Open Graph description:** `Review promotion eligibility, dates, reward conditions and safety checks before participating.`
-- **Open Graph image:** `[[TODO_OG_IMAGE_URL]]`
+- **Open Graph image:** `https://striptokens.github.io/striptokens/promotion-information-social.webp`
 - **Twitter card:** `summary_large_image`
 - **Hreflang:** none; this page is English only and is not genuinely multilingual yet.
 
@@ -294,7 +292,7 @@ Measure qualified review and terms actions, not only impressions, traffic or tim
 
 - [ ] Verify the exact GSC query and live SERP type.
 - [ ] Confirm whether another URL already receives impressions or clicks for this intent.
-- [ ] Replace `[[CANONICAL_URL]]` with the final canonical URL.
+- [ ] Confirm that `https://striptokens.github.io/striptokens/` is the final canonical URL and that it resolves on the deployed host.
 - [ ] Verify all three supplied domains, ownership, HTTPS, redirects, phishing/malware risk and destination safety.
 - [ ] Confirm organiser identity and token source.
 - [ ] Confirm exact reward, draw frequency, start/end dates and time zone.
@@ -322,7 +320,7 @@ Measure qualified review and terms actions, not only impressions, traffic or tim
 | No unsupported “LEGIT” claim | PASS | The page says verification is pending. |
 | No fake reward | PASS | Reward is `[[TODO]]`; no amount or guarantee is invented. |
 | No invented proof | PASS | Organiser, dates, terms and evidence remain placeholders. |
-| One URL | PASS | One static landing page and one canonical placeholder. |
+| One URL | PASS | One static landing page and one configured canonical URL. |
 | One H1 | PASS | One H1 in `index.html`. |
 | Correct heading order | PASS | H2 sections and H3 card headings are nested logically. |
 | Clear eligibility | PASS / publish-blocked | The required fields are visible; exact rules still need human evidence. |
