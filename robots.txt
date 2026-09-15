@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://striptokens.github.io/striptokens/sitemap.xml

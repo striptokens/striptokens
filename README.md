@@ -7,6 +7,8 @@ A static, mobile-first landing page for the `StripChat token promotion` commerci
 - `index.html` — complete semantic HTML page, metadata, visible copy, YouTube embed and JSON-LD.
 - `styles.css` — responsive accessible CSS with reduced-motion support and the sticky promotion CTA.
 - `STRATEGY.md` — strategy brief, SERP assets, keyword pool, image brief, internal-link map, measurement plan, launch checklist and self-QA.
+- `promotion-information-social.webp` — neutral typographic Open Graph image; it does not show a reward, winner or payment proof.
+- `robots.txt` and `sitemap.xml` — configured for the supplied GitHub Pages URL.
 
 ## Preview locally
 
